@@ -23,7 +23,18 @@
 
 ## Tech Structure
 
-![Tech Structure](Tech Structure.png)
+![Architecture](Structure.jpg)
+
+- **React** handles UI rendering; **React-Router-DOM** manages routing.
+
+- **Material UI (MUI)** and **Google APIs** enhance the front-end experience.
+- **Redux** manages global state with **Reducers**, **Actions**, and **Store**.
+- **Axios** in API layer performs HTTP requests to the backend.
+- **Express.js** defines backend routes via **express.Router()**.
+- **jsonwebtoken** in middleware secures routes with authentication.
+- **Controllers** handle business logic and interact with **Mongoose** models.
+- **MongoDB** stores app data, connected via **Mongoose**.
+- **Jest** and **Mockingoose** support backend testing.
 
 ---
 
