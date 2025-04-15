@@ -52,7 +52,14 @@ To run `SkyLens`, you'll need:
 
 ### Setup Instructions
 
-1. Create two `.env` files in the `client/` and `server/` folders, using the provided `.env.example` files as templates.
+1. Copy the example `.env` files in the `client/` and `server/` folders to create your actual environment configuration files:
+
+```bash
+cp client/.env.example client/.env
+cp server/.env.example server/.env
+```
+
+2. Open the newly created `.env` files and **replace the placeholder values** with your own configuration.
 
 #### Example: `client/.env`
 ```env
@@ -71,7 +78,7 @@ JWT_SECRET=your-secret
 
 
 
-2. In the root directory, build and start all services:
+3. In the root directory, build and start all services:
 
 ```bash
 docker-compose up -d --build
@@ -79,7 +86,7 @@ docker-compose up -d --build
 
 
 
-3. Access the app: http://localhost
+4. Access the app: http://localhost
 
 
 
