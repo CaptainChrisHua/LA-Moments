@@ -23,7 +23,7 @@
 
 ## Tech Structure
 
-![Architecture](Tech Structure.png)
+![Tech Structure](Tech Structure.png)
 
 ---
 
