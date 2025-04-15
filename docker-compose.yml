@@ -24,4 +24,4 @@ services:
       - ./server/.env
     volumes:
       - ./server:/app
-      - ./la-moments.log:/app/logs/la-moments.log
+      - /root/la-moments.log:/app/logs/la-moments.log
